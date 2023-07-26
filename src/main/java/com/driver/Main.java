@@ -8,10 +8,10 @@ public class Main {
         }
 
         public double product(double x, double y) {
-            return x*y;
+            return x+y;
         }
         public int product(int x, int y, int z) {
-            return (x+y)*z;
+            return x+y+z;
         }
 
     }
@@ -21,9 +21,7 @@ public class Main {
     public static void main(String[] args){
         Product p = new Product();
         p.product(5,11);
-        p.product(5.5,11);
-        p.product(5, 11,55);
-
-
+        p.product(5,11);
+        p.product(5,11,55);
     }
 }
